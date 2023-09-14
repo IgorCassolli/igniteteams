@@ -6,7 +6,7 @@ import { Button } from "@components/Button";
 import { Input } from "@components/Input";
 import { Filter } from "@components/Filter";
 
-import { Container, Form, HeaderList, NumbersOfPlayers } from "./styles";
+import { Container, Form, HeaderList, NumberOfPlayers } from "./styles";
 import { useState } from "react";
 import { PlayerCard } from "@components/PlayerCard";
 import { ListEmpty } from "@components/ListEmpty";
@@ -43,9 +43,9 @@ export function Players(){
                     )}
                     horizontal
                 />
-                <NumbersOfPlayers>
+                <NumberOfPlayers>
                     {players.length}
-                </NumbersOfPlayers>
+                </NumberOfPlayers>
             </HeaderList>
             <FlatList
                 data={players}
