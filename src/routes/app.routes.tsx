@@ -9,7 +9,7 @@ const { Navigator, Screen } = createStackNavigator();
 export function AppRoutes(){
     return (
         <Navigator
-            screenOptions={{ headerShown: false }}
+            screenOptions={{ headerShown: false, animationEnabled: false }}
         >
             <Screen 
                 name="groups"
