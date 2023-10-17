@@ -8,6 +8,5 @@ export async function groupsGetAll(){
         return groups;
     } catch (error) {
         throw error;
-    }
-    
+    } 
 }
